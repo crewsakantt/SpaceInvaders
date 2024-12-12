@@ -295,6 +295,7 @@ public class SpaceInvadersGame extends JPanel implements ActionListener {
     private void resetGame() {
         playerX = WIDTH / 2 - PLAYER_WIDTH / 2;
         playerY = HEIGHT - PLAYER_HEIGHT - 30;
+        playerDX = 0;
         playerLives = 3; // Reset player lives
         bullets.clear();
         enemyBullets.clear(); // Clear enemy bullets
